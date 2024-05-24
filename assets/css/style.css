@@ -1,0 +1,134 @@
+
+footer {
+    padding: 15px;
+    background-color: #bb8588;
+    color: #fff;
+  }
+
+  ul {
+    list-style-type: none;
+}
+
+li {
+  padding: 2px;
+  margin-bottom: 3px;
+}
+
+
+#icon{
+    width:30px;
+    cursor: pointer;
+}
+
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color: black;
+    background-color: #edf2fc;
+}
+
+    
+    * {
+        box-sizing: border-box;
+      }
+    
+    label {
+        font-weight: bold;
+    }
+
+    
+    input {
+      background-color: var(--primary-color);
+      border-radius: 3px;
+      border-width: 1px;
+      color: #5f6368;
+      font-size: 1.1em;
+      height: 45px;
+      line-height: 20px;
+      margin: 0;
+      margin-top: 10px;
+      max-width: 100%;
+      padding: 8px 8px 8px 8px;
+      transition-delay: 0s, 0s;
+      transition-duration: 0.2s, 0.2s;
+      transition-property: background-color, color;
+      transition-timing-function: ease, ease;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    
+    body {
+        font-family: Arial;
+        margin: 0;
+        font-size: large;
+      }
+    
+    
+    .inputContent {
+        padding: 60px 10px;
+        vertical-align: top;
+    }
+    
+      
+      header {
+        padding: 60px;
+        text-align: center;
+        color: var(--primary-color);
+      }
+      
+
+      
+      aside {
+        flex: 3;
+      }
+      
+      section {
+        flex: 70%;
+        padding: 20px;
+      }
+
+      header {
+        color: purple;
+      }
+    
+      form {
+      flex: 4;
+      padding: 20px;
+      color: purple;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 20px;
+      border: 2px solid #a5a3a3;
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+    
+
+      * {
+        margin: 0;
+        padding: 3px;
+        box-sizing: border-box;
+      }
+      
+      html {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(243, 239, 233);
+      }
+      
+      body {
+        min-height: 100%;
+        line-height: 1;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+      }
+    
+      button {
+        background-color: rgb(203, 199, 199);
+        box-shadow: 1px 1px;
+        font-weight: bold;
+      }
+      
+      [data-theme="dark"] {
+        background-color: black;
+      }
